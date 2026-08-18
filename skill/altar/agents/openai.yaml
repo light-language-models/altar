@@ -1,0 +1,4 @@
+interface:
+  display_name: "Altar"
+  short_description: "Moment-selected reflection and Thinking 3/6/9"
+  default_prompt: "Use $altar privately, draw before interpretation, and give me the clean answer."

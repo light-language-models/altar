@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://altar.example/schema/thinking-depth-receipt-v1.json",
+  "title": "Altar Thinking Depth Receipt v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "selector_version", "at_utc", "unix_milliseconds",
+    "pack_sha256", "requested_depth", "depth", "derivation_sha256", "selector_inputs"
+  ],
+  "properties": {
+    "schema_version": {"const": "altar-thinking-depth-receipt-v1"},
+    "selector_version": {"const": "altar-thinking-v1"},
+    "at_utc": {"type": "string", "format": "date-time"},
+    "unix_milliseconds": {"type": "integer"},
+    "pack_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "requested_depth": {"enum": ["auto", "3", "6", "9"]},
+    "depth": {"enum": [3, 6, 9]},
+    "derivation_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "selector_inputs": {
+      "const": ["selector_version", "pack_sha256", "unix_milliseconds", "domain"]
+    }
+  }
+}

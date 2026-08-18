@@ -1,0 +1,251 @@
+{
+  "pack_id": "whole-v3",
+  "pack_sha256": "031b93a3c1966b0de23674e1c0c6862dacf7916cbf71d566aedbdb3d0a3d4041",
+  "selector_version": "altar-portable-v2",
+  "vectors": [
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "geometry": "open-center",
+        "geometry_proof_sha256": "c5ae9148eac34eaff7304dbf6e47c9dc554525c2095d97bc7b41252f66d8b74e",
+        "mode": "silence",
+        "pack_id": "whole-v3",
+        "pack_sha256": "031b93a3c1966b0de23674e1c0c6862dacf7916cbf71d566aedbdb3d0a3d4041",
+        "schema_version": "altar-draw-receipt-v2",
+        "selection_proof_sha256": "0d5d30b8b30627d2189edd9db337de9fcc669f44783b8f7bfa8f61b8bfde1523",
+        "selector_inputs": [
+          "selector_version",
+          "pack_sha256",
+          "unix_milliseconds",
+          "domain",
+          "counter"
+        ],
+        "selector_version": "altar-portable-v2",
+        "symbols": [],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "silence"
+      }
+    },
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "geometry": "point",
+        "geometry_proof_sha256": "c5ae9148eac34eaff7304dbf6e47c9dc554525c2095d97bc7b41252f66d8b74e",
+        "mode": "note",
+        "pack_id": "whole-v3",
+        "pack_sha256": "031b93a3c1966b0de23674e1c0c6862dacf7916cbf71d566aedbdb3d0a3d4041",
+        "schema_version": "altar-draw-receipt-v2",
+        "selection_proof_sha256": "e3ec7794d0b8381693f8f27f7b3ef1590c4d562288449c30a6a801e2ab001c85",
+        "selector_inputs": [
+          "selector_version",
+          "pack_sha256",
+          "unix_milliseconds",
+          "domain",
+          "counter"
+        ],
+        "selector_version": "altar-portable-v2",
+        "symbols": [
+          {
+            "counter": 0,
+            "derivation_sha256": "5786714ab3a0cba61b09de307cde05a5df60de7038c9e4af372fe8ad82340a6f",
+            "glyph": "♑",
+            "label": "Capricorn",
+            "ordinal": 1,
+            "role": "primary",
+            "symbol_id": "010-capricorn",
+            "system_id": "zodiac",
+            "system_label": "Zodiac"
+          }
+        ],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "note"
+      }
+    },
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "geometry": "triad",
+        "geometry_proof_sha256": "c5ae9148eac34eaff7304dbf6e47c9dc554525c2095d97bc7b41252f66d8b74e",
+        "mode": "chord",
+        "pack_id": "whole-v3",
+        "pack_sha256": "031b93a3c1966b0de23674e1c0c6862dacf7916cbf71d566aedbdb3d0a3d4041",
+        "schema_version": "altar-draw-receipt-v2",
+        "selection_proof_sha256": "7b3d016c91a2fcd57b9b62fd94823dbd11c9253da7e64e0b6adef515e828f39a",
+        "selector_inputs": [
+          "selector_version",
+          "pack_sha256",
+          "unix_milliseconds",
+          "domain",
+          "counter"
+        ],
+        "selector_version": "altar-portable-v2",
+        "symbols": [
+          {
+            "counter": 0,
+            "derivation_sha256": "5786714ab3a0cba61b09de307cde05a5df60de7038c9e4af372fe8ad82340a6f",
+            "glyph": "♑",
+            "label": "Capricorn",
+            "ordinal": 1,
+            "role": "primary",
+            "symbol_id": "010-capricorn",
+            "system_id": "zodiac",
+            "system_label": "Zodiac"
+          },
+          {
+            "counter": 1,
+            "derivation_sha256": "afbfff8b0d05f436cd6d020c751b76f8970a4d035ad21a0cd695323cefa2f5df",
+            "glyph": null,
+            "label": "Crown",
+            "ordinal": 2,
+            "role": "satellite",
+            "symbol_id": "009-crown",
+            "system_id": "chakras",
+            "system_label": "Chakras"
+          },
+          {
+            "counter": 2,
+            "derivation_sha256": "43bd047a4f9f3fae865a7fb5b778d5d4ecd80fbee82abd8813ddd4cbb8c1f8bf",
+            "glyph": null,
+            "label": "0",
+            "ordinal": 3,
+            "role": "satellite",
+            "symbol_id": "001-0",
+            "system_id": "sacred-numbers",
+            "system_label": "Sacred Numbers"
+          }
+        ],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "chord"
+      }
+    },
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "geometry": "constellation",
+        "geometry_proof_sha256": "c5ae9148eac34eaff7304dbf6e47c9dc554525c2095d97bc7b41252f66d8b74e",
+        "mode": "field",
+        "pack_id": "whole-v3",
+        "pack_sha256": "031b93a3c1966b0de23674e1c0c6862dacf7916cbf71d566aedbdb3d0a3d4041",
+        "schema_version": "altar-draw-receipt-v2",
+        "selection_proof_sha256": "131026885b993fbb5b3af416724539acad21f7ac984f333716b1d630c763ff64",
+        "selector_inputs": [
+          "selector_version",
+          "pack_sha256",
+          "unix_milliseconds",
+          "domain",
+          "counter"
+        ],
+        "selector_version": "altar-portable-v2",
+        "symbols": [
+          {
+            "counter": 0,
+            "derivation_sha256": "5786714ab3a0cba61b09de307cde05a5df60de7038c9e4af372fe8ad82340a6f",
+            "glyph": "♑",
+            "label": "Capricorn",
+            "ordinal": 1,
+            "role": "primary",
+            "symbol_id": "010-capricorn",
+            "system_id": "zodiac",
+            "system_label": "Zodiac"
+          },
+          {
+            "counter": 1,
+            "derivation_sha256": "afbfff8b0d05f436cd6d020c751b76f8970a4d035ad21a0cd695323cefa2f5df",
+            "glyph": null,
+            "label": "Crown",
+            "ordinal": 2,
+            "role": "satellite",
+            "symbol_id": "009-crown",
+            "system_id": "chakras",
+            "system_label": "Chakras"
+          },
+          {
+            "counter": 2,
+            "derivation_sha256": "43bd047a4f9f3fae865a7fb5b778d5d4ecd80fbee82abd8813ddd4cbb8c1f8bf",
+            "glyph": null,
+            "label": "0",
+            "ordinal": 3,
+            "role": "satellite",
+            "symbol_id": "001-0",
+            "system_id": "sacred-numbers",
+            "system_label": "Sacred Numbers"
+          },
+          {
+            "counter": 4,
+            "derivation_sha256": "0878d3c43d03dbe145c1976f02799110f216ab8380ccdd444123ec2c2f632376",
+            "glyph": "䷐",
+            "label": "Sui - Following",
+            "ordinal": 4,
+            "role": "satellite",
+            "symbol_id": "017-sui-following",
+            "system_id": "iching",
+            "system_label": "I Ching"
+          },
+          {
+            "counter": 5,
+            "derivation_sha256": "1bc9b81c5eb86a9712d0460ee14813bb738ee47df3fa353f7f468777093f7d20",
+            "glyph": null,
+            "label": "Smell",
+            "ordinal": 5,
+            "role": "satellite",
+            "symbol_id": "004-smell",
+            "system_id": "senses",
+            "system_label": "Senses"
+          }
+        ],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "field"
+      }
+    },
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "geometry": "point",
+        "geometry_proof_sha256": "c5ae9148eac34eaff7304dbf6e47c9dc554525c2095d97bc7b41252f66d8b74e",
+        "mode": "auto",
+        "pack_id": "whole-v3",
+        "pack_sha256": "031b93a3c1966b0de23674e1c0c6862dacf7916cbf71d566aedbdb3d0a3d4041",
+        "schema_version": "altar-draw-receipt-v2",
+        "selection_proof_sha256": "fbf5b204adaebdcee75f4ce718a7db79a9260bf833a4395b505480def768d292",
+        "selector_inputs": [
+          "selector_version",
+          "pack_sha256",
+          "unix_milliseconds",
+          "domain",
+          "counter"
+        ],
+        "selector_version": "altar-portable-v2",
+        "symbols": [
+          {
+            "counter": 0,
+            "derivation_sha256": "5786714ab3a0cba61b09de307cde05a5df60de7038c9e4af372fe8ad82340a6f",
+            "glyph": "♑",
+            "label": "Capricorn",
+            "ordinal": 1,
+            "role": "primary",
+            "symbol_id": "010-capricorn",
+            "system_id": "zodiac",
+            "system_label": "Zodiac"
+          }
+        ],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "auto"
+      }
+    }
+  ]
+}

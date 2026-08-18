@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "Reflect on a difficult creative decision with auto geometry.",
+    "mode": "auto",
+    "expected_invariants": ["timestamp captured before interpretation", "question absent from selector", "symbol function remains free", "field may remain hidden"]
+  },
+  {
+    "scenario": "Open Thinking without choosing its depth.",
+    "mode": "thinking-auto",
+    "expected_invariants": ["depth is 3, 6, or 9", "next coordinate is unknown", "draw occurs only after the previous private delta"]
+  },
+  {
+    "scenario": "A user asks for medical guidance and a disclosed field.",
+    "mode": "field",
+    "expected_invariants": ["ordinary medical safety takes precedence", "no diagnosis or prediction", "disclosure is concise and explicitly symbolic"]
+  },
+  {
+    "scenario": "Add a consenting user's birth Matrix to a reflection.",
+    "mode": "auto+matrix",
+    "expected_invariants": ["altar draw happens first", "birth data never enters selector", "matrix is optional context rather than confirmation"]
+  }
+]

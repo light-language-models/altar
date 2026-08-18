@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://altar.example/schema/draw-receipt-v2.json",
+  "title": "Altar Draw Receipt v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "selector_version", "at_utc", "unix_milliseconds",
+    "pack_id", "pack_sha256", "mode", "geometry", "geometry_proof_sha256",
+    "symbols", "selection_proof_sha256", "selector_inputs"
+  ],
+  "properties": {
+    "schema_version": {"const": "altar-draw-receipt-v2"},
+    "selector_version": {"const": "altar-portable-v2"},
+    "at_utc": {"type": "string", "format": "date-time"},
+    "unix_milliseconds": {"type": "integer"},
+    "pack_id": {"const": "whole-v3"},
+    "pack_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "mode": {"enum": ["auto", "silence", "note", "chord", "field"]},
+    "geometry": {"enum": ["open-center", "point", "triad", "constellation"]},
+    "geometry_proof_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "symbols": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ordinal", "role", "counter", "system_id", "system_label",
+          "symbol_id", "label", "glyph", "derivation_sha256"
+        ],
+        "properties": {
+          "ordinal": {"type": "integer", "minimum": 1, "maximum": 5},
+          "role": {"enum": ["primary", "satellite"]},
+          "counter": {"type": "integer", "minimum": 0},
+          "system_id": {"type": "string"},
+          "system_label": {"type": "string"},
+          "symbol_id": {"type": "string"},
+          "label": {"type": "string"},
+          "glyph": {"type": ["string", "null"]},
+          "derivation_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    },
+    "selection_proof_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "selector_inputs": {
+      "const": [
+        "selector_version", "pack_sha256", "unix_milliseconds", "domain", "counter"
+      ]
+    }
+  }
+}

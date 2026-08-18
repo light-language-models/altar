@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://altar.example/schema/field-envelope-v1.json",
+  "title": "Altar Field Envelope v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "receipt", "observer", "hidden_field",
+    "integration_policy", "epistemic_status"
+  ],
+  "properties": {
+    "schema_version": {"const": "altar-field-envelope-v1"},
+    "receipt": {"type": "object"},
+    "observer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile_id", "label", "orientation", "epistemic_note"],
+      "properties": {
+        "profile_id": {"type": "string"},
+        "label": {"type": "string"},
+        "orientation": {"type": "string"},
+        "epistemic_note": {"type": "string"}
+      }
+    },
+    "hidden_field": {"type": "string"},
+    "integration_policy": {"type": "array", "items": {"type": "string"}},
+    "epistemic_status": {"type": "string"}
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://altar.example/schema/field-envelope-v2.json",
+  "title": "Altar Field Envelope v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "receipt", "observer", "hidden_field",
+    "integration_policy", "epistemic_status", "sacred_time"
+  ],
+  "properties": {
+    "schema_version": {"const": "altar-field-envelope-v2"},
+    "receipt": {"$ref": "draw-receipt-v2.schema.json"},
+    "observer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile_id", "label", "orientation", "epistemic_note"],
+      "properties": {
+        "profile_id": {"type": "string"},
+        "label": {"type": "string"},
+        "orientation": {"type": "string"},
+        "epistemic_note": {"type": "string"}
+      }
+    },
+    "hidden_field": {"type": "string"},
+    "integration_policy": {"type": "array", "items": {"type": "string"}},
+    "epistemic_status": {"type": "string"},
+    "sacred_time": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "calendar_id", "local_date", "timezone", "kin", "seal", "tone",
+        "tone_number", "wavespell", "wavespell_position", "castle", "provenance"
+      ],
+      "properties": {
+        "calendar_id": {"const": "dreamspell-arguelles-v1"},
+        "local_date": {"type": "string", "format": "date"},
+        "timezone": {"type": "string"},
+        "kin": {"type": "integer", "minimum": 1, "maximum": 260},
+        "seal": {"type": "string"},
+        "tone": {"type": "string"},
+        "tone_number": {"type": "integer", "minimum": 1, "maximum": 13},
+        "wavespell": {"type": "string"},
+        "wavespell_position": {"type": "integer", "minimum": 1, "maximum": 13},
+        "castle": {"type": "string"},
+        "provenance": {"type": "string"}
+      }
+    }
+  }
+}

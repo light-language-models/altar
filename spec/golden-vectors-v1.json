@@ -1,0 +1,186 @@
+{
+  "pack_sha256": "9405d4959495a7d652cfef5771c9a0dfd226981d8bb8a68cf989adf09a7402cd",
+  "selector_version": "altar-portable-v1",
+  "vectors": [
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "silence",
+        "pack_id": "universal-v1",
+        "pack_sha256": "9405d4959495a7d652cfef5771c9a0dfd226981d8bb8a68cf989adf09a7402cd",
+        "schema_version": "altar-draw-receipt-v1",
+        "selection_proof_sha256": "0d24f4d47dd32f005b68cb7c32eb0a428a5a39d17eecf747c347cd6f2f2d3fe6",
+        "selector_inputs": ["selector_version", "pack_sha256", "unix_milliseconds", "counter"],
+        "selector_version": "altar-portable-v1",
+        "symbols": [],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {"at_utc": "2026-07-15T12:34:56.789Z", "mode": "silence"}
+    },
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "note",
+        "pack_id": "universal-v1",
+        "pack_sha256": "9405d4959495a7d652cfef5771c9a0dfd226981d8bb8a68cf989adf09a7402cd",
+        "schema_version": "altar-draw-receipt-v1",
+        "selection_proof_sha256": "6d26739cf38a51d804c872c004141411cc4421656c2ee82b5447e24c1623e544",
+        "selector_inputs": ["selector_version", "pack_sha256", "unix_milliseconds", "counter"],
+        "selector_version": "altar-portable-v1",
+        "symbols": [
+          {
+            "caution": "A compact reference, not a substitute for the Yijing tradition.",
+            "counter": 0,
+            "derivation_sha256": "aa9f856639bdf55df8b503c6c3e463d338930b043f6f83d072ca6e8fd7f6e498",
+            "facets": ["arousal", "movement", "shock"],
+            "glyph": "☳",
+            "label": "Zhen — Thunder",
+            "ordinal": 1,
+            "symbol_id": "zhen",
+            "system_id": "iching-trigrams",
+            "system_label": "I Ching Trigrams",
+            "tradition": "Chinese Yijing tradition"
+          }
+        ],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {"at_utc": "2026-07-15T12:34:56.789Z", "mode": "note"}
+    },
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "chord",
+        "pack_id": "universal-v1",
+        "pack_sha256": "9405d4959495a7d652cfef5771c9a0dfd226981d8bb8a68cf989adf09a7402cd",
+        "schema_version": "altar-draw-receipt-v1",
+        "selection_proof_sha256": "0c244e2b0ebbef1c3c58b6cdd60e073c65fa25368179784d631d07f89a83f385",
+        "selector_inputs": ["selector_version", "pack_sha256", "unix_milliseconds", "counter"],
+        "selector_version": "altar-portable-v1",
+        "symbols": [
+          {
+            "caution": "A compact reference, not a substitute for the Yijing tradition.",
+            "counter": 0,
+            "derivation_sha256": "aa9f856639bdf55df8b503c6c3e463d338930b043f6f83d072ca6e8fd7f6e498",
+            "facets": ["arousal", "movement", "shock"],
+            "glyph": "☳",
+            "label": "Zhen — Thunder",
+            "ordinal": 1,
+            "symbol_id": "zhen",
+            "system_id": "iching-trigrams",
+            "system_label": "I Ching Trigrams",
+            "tradition": "Chinese Yijing tradition"
+          },
+          {
+            "caution": "Archetypal lens, not a personality diagnosis.",
+            "counter": 1,
+            "derivation_sha256": "f38d3b6be14d00c22f4808a62aa386878a56ae84ab54858bc16babc0e67cffd1",
+            "facets": ["empathy", "dream", "interconnection"],
+            "glyph": "♓",
+            "label": "Pisces",
+            "ordinal": 2,
+            "symbol_id": "pisces",
+            "system_id": "zodiac",
+            "system_label": "Zodiac",
+            "tradition": "Western tropical zodiac symbolism"
+          },
+          {
+            "caution": null,
+            "counter": 2,
+            "derivation_sha256": "930e1688212f7b8e5a07cefa5e8bdd750e2b5756c5cd2ed9de3e7a86c35b7aba",
+            "facets": ["development", "return", "deepening"],
+            "glyph": "🌀",
+            "label": "Spiral",
+            "ordinal": 3,
+            "symbol_id": "spiral",
+            "system_id": "geometry",
+            "system_label": "Basic Geometry",
+            "tradition": "elementary and contemplative geometry"
+          }
+        ],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {"at_utc": "2026-07-15T12:34:56.789Z", "mode": "chord"}
+    },
+    {
+      "receipt": {
+        "at_utc": "2026-07-15T12:34:56.789Z",
+        "mode": "field",
+        "pack_id": "universal-v1",
+        "pack_sha256": "9405d4959495a7d652cfef5771c9a0dfd226981d8bb8a68cf989adf09a7402cd",
+        "schema_version": "altar-draw-receipt-v1",
+        "selection_proof_sha256": "2936dc7eb46031cd151a932978750f006f1a930a4bb1c998723aa73822c75e67",
+        "selector_inputs": ["selector_version", "pack_sha256", "unix_milliseconds", "counter"],
+        "selector_version": "altar-portable-v1",
+        "symbols": [
+          {
+            "caution": "A compact reference, not a substitute for the Yijing tradition.",
+            "counter": 0,
+            "derivation_sha256": "aa9f856639bdf55df8b503c6c3e463d338930b043f6f83d072ca6e8fd7f6e498",
+            "facets": ["arousal", "movement", "shock"],
+            "glyph": "☳",
+            "label": "Zhen — Thunder",
+            "ordinal": 1,
+            "symbol_id": "zhen",
+            "system_id": "iching-trigrams",
+            "system_label": "I Ching Trigrams",
+            "tradition": "Chinese Yijing tradition"
+          },
+          {
+            "caution": "Archetypal lens, not a personality diagnosis.",
+            "counter": 1,
+            "derivation_sha256": "f38d3b6be14d00c22f4808a62aa386878a56ae84ab54858bc16babc0e67cffd1",
+            "facets": ["empathy", "dream", "interconnection"],
+            "glyph": "♓",
+            "label": "Pisces",
+            "ordinal": 2,
+            "symbol_id": "pisces",
+            "system_id": "zodiac",
+            "system_label": "Zodiac",
+            "tradition": "Western tropical zodiac symbolism"
+          },
+          {
+            "caution": null,
+            "counter": 2,
+            "derivation_sha256": "930e1688212f7b8e5a07cefa5e8bdd750e2b5756c5cd2ed9de3e7a86c35b7aba",
+            "facets": ["development", "return", "deepening"],
+            "glyph": "🌀",
+            "label": "Spiral",
+            "ordinal": 3,
+            "symbol_id": "spiral",
+            "system_id": "geometry",
+            "system_label": "Basic Geometry",
+            "tradition": "elementary and contemplative geometry"
+          },
+          {
+            "caution": "Color meanings vary across cultures.",
+            "counter": 4,
+            "derivation_sha256": "f1007d22ec1effd530a2ff463ca2c7b77350316b0643bab13b27902002490b9c",
+            "facets": ["depth", "rest", "unknown"],
+            "glyph": "●",
+            "label": "Black",
+            "ordinal": 4,
+            "symbol_id": "black",
+            "system_id": "colors",
+            "system_label": "Colors",
+            "tradition": "cross-cultural color symbolism"
+          },
+          {
+            "caution": "Symbolic lens, not an astronomical causal claim.",
+            "counter": 9,
+            "derivation_sha256": "3d83641e4d359485c5b96fd8c34668cb8284f9250bb69a547260369aaa153103",
+            "facets": ["rhythm", "memory", "receptivity"],
+            "glyph": "☽",
+            "label": "Moon",
+            "ordinal": 5,
+            "symbol_id": "moon",
+            "system_id": "planets",
+            "system_label": "Planets and Luminaries",
+            "tradition": "classical astrological symbolism"
+          }
+        ],
+        "unix_milliseconds": 1784118896789
+      },
+      "request": {"at_utc": "2026-07-15T12:34:56.789Z", "mode": "field"}
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "altar-symbol-pack-v1",
+  "pack_id": "universal-v1",
+  "title": "Universal Symbol Pack v1",
+  "description": "A compact set of familiar symbolic coordinates for reflective AI use.",
+  "systems": [
+    {
+      "system_id": "elements",
+      "label": "Elements",
+      "tradition": "cross-cultural elemental symbolism",
+      "symbols": [
+        {"symbol_id": "earth", "label": "Earth", "glyph": "🜃", "facets": ["ground", "form", "patience"], "caution": null},
+        {"symbol_id": "water", "label": "Water", "glyph": "🜄", "facets": ["flow", "feeling", "adaptation"], "caution": null},
+        {"symbol_id": "fire", "label": "Fire", "glyph": "🜂", "facets": ["transformation", "will", "illumination"], "caution": null},
+        {"symbol_id": "air", "label": "Air", "glyph": "🜁", "facets": ["movement", "thought", "relation"], "caution": null},
+        {"symbol_id": "space", "label": "Space", "glyph": "◌", "facets": ["openness", "context", "possibility"], "caution": null}
+      ]
+    },
+    {
+      "system_id": "planets",
+      "label": "Planets and Luminaries",
+      "tradition": "classical astrological symbolism",
+      "symbols": [
+        {"symbol_id": "sun", "label": "Sun", "glyph": "☉", "facets": ["center", "vitality", "visibility"], "caution": "Symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "moon", "label": "Moon", "glyph": "☽", "facets": ["rhythm", "memory", "receptivity"], "caution": "Symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "mercury", "label": "Mercury", "glyph": "☿", "facets": ["language", "exchange", "discernment"], "caution": "Symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "venus", "label": "Venus", "glyph": "♀", "facets": ["attraction", "value", "harmony"], "caution": "Symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "mars", "label": "Mars", "glyph": "♂", "facets": ["action", "boundary", "courage"], "caution": "Symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "jupiter", "label": "Jupiter", "glyph": "♃", "facets": ["growth", "meaning", "generosity"], "caution": "Symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "saturn", "label": "Saturn", "glyph": "♄", "facets": ["structure", "time", "responsibility"], "caution": "Symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "uranus", "label": "Uranus", "glyph": "♅", "facets": ["disruption", "freedom", "innovation"], "caution": "Modern symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "neptune", "label": "Neptune", "glyph": "♆", "facets": ["imagination", "dissolution", "devotion"], "caution": "Modern symbolic lens, not an astronomical causal claim."},
+        {"symbol_id": "pluto", "label": "Pluto", "glyph": "♇", "facets": ["depth", "power", "renewal"], "caution": "Modern symbolic lens, not an astronomical causal claim."}
+      ]
+    },
+    {
+      "system_id": "zodiac",
+      "label": "Zodiac",
+      "tradition": "Western tropical zodiac symbolism",
+      "symbols": [
+        {"symbol_id": "aries", "label": "Aries", "glyph": "♈", "facets": ["beginning", "impulse", "directness"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "taurus", "label": "Taurus", "glyph": "♉", "facets": ["stability", "sensation", "cultivation"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "gemini", "label": "Gemini", "glyph": "♊", "facets": ["duality", "curiosity", "translation"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "cancer", "label": "Cancer", "glyph": "♋", "facets": ["shelter", "belonging", "care"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "leo", "label": "Leo", "glyph": "♌", "facets": ["expression", "heart", "radiance"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "virgo", "label": "Virgo", "glyph": "♍", "facets": ["craft", "precision", "service"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "libra", "label": "Libra", "glyph": "♎", "facets": ["balance", "reciprocity", "choice"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "scorpio", "label": "Scorpio", "glyph": "♏", "facets": ["intensity", "truth", "transformation"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "sagittarius", "label": "Sagittarius", "glyph": "♐", "facets": ["direction", "exploration", "worldview"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "capricorn", "label": "Capricorn", "glyph": "♑", "facets": ["maturity", "construction", "endurance"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "aquarius", "label": "Aquarius", "glyph": "♒", "facets": ["collective", "pattern", "future"], "caution": "Archetypal lens, not a personality diagnosis."},
+        {"symbol_id": "pisces", "label": "Pisces", "glyph": "♓", "facets": ["empathy", "dream", "interconnection"], "caution": "Archetypal lens, not a personality diagnosis."}
+      ]
+    },
+    {
+      "system_id": "colors",
+      "label": "Colors",
+      "tradition": "cross-cultural color symbolism",
+      "symbols": [
+        {"symbol_id": "red", "label": "Red", "glyph": "●", "facets": ["life", "urgency", "embodiment"], "caution": "Color meanings vary across cultures."},
+        {"symbol_id": "orange", "label": "Orange", "glyph": "●", "facets": ["warmth", "exchange", "creativity"], "caution": "Color meanings vary across cultures."},
+        {"symbol_id": "yellow", "label": "Yellow", "glyph": "●", "facets": ["clarity", "attention", "play"], "caution": "Color meanings vary across cultures."},
+        {"symbol_id": "green", "label": "Green", "glyph": "●", "facets": ["growth", "repair", "relationship"], "caution": "Color meanings vary across cultures."},
+        {"symbol_id": "blue", "label": "Blue", "glyph": "●", "facets": ["space", "trust", "communication"], "caution": "Color meanings vary across cultures."},
+        {"symbol_id": "violet", "label": "Violet", "glyph": "●", "facets": ["threshold", "mystery", "integration"], "caution": "Color meanings vary across cultures."},
+        {"symbol_id": "white", "label": "White", "glyph": "○", "facets": ["clarity", "beginning", "openness"], "caution": "Color meanings vary across cultures."},
+        {"symbol_id": "black", "label": "Black", "glyph": "●", "facets": ["depth", "rest", "unknown"], "caution": "Color meanings vary across cultures."}
+      ]
+    },
+    {
+      "system_id": "geometry",
+      "label": "Basic Geometry",
+      "tradition": "elementary and contemplative geometry",
+      "symbols": [
+        {"symbol_id": "point", "label": "Point", "glyph": "·", "facets": ["origin", "focus", "singularity"], "caution": null},
+        {"symbol_id": "line", "label": "Line", "glyph": "—", "facets": ["direction", "connection", "continuity"], "caution": null},
+        {"symbol_id": "circle", "label": "Circle", "glyph": "○", "facets": ["wholeness", "cycle", "boundary"], "caution": null},
+        {"symbol_id": "triangle", "label": "Triangle", "glyph": "△", "facets": ["relation", "stability", "transformation"], "caution": null},
+        {"symbol_id": "square", "label": "Square", "glyph": "□", "facets": ["structure", "foundation", "measure"], "caution": null},
+        {"symbol_id": "spiral", "label": "Spiral", "glyph": "🌀", "facets": ["development", "return", "deepening"], "caution": null},
+        {"symbol_id": "vesica", "label": "Vesica Piscis", "glyph": "◉", "facets": ["meeting", "overlap", "birth"], "caution": null},
+        {"symbol_id": "lemniscate", "label": "Lemniscate", "glyph": "∞", "facets": ["exchange", "recurrence", "continuity"], "caution": null}
+      ]
+    },
+    {
+      "system_id": "iching-trigrams",
+      "label": "I Ching Trigrams",
+      "tradition": "Chinese Yijing tradition",
+      "symbols": [
+        {"symbol_id": "qian", "label": "Qian — Heaven", "glyph": "☰", "facets": ["creative", "initiative", "sky"], "caution": "A compact reference, not a substitute for the Yijing tradition."},
+        {"symbol_id": "dui", "label": "Dui — Lake", "glyph": "☱", "facets": ["joy", "exchange", "opening"], "caution": "A compact reference, not a substitute for the Yijing tradition."},
+        {"symbol_id": "li", "label": "Li — Fire", "glyph": "☲", "facets": ["clarity", "attachment", "light"], "caution": "A compact reference, not a substitute for the Yijing tradition."},
+        {"symbol_id": "zhen", "label": "Zhen — Thunder", "glyph": "☳", "facets": ["arousal", "movement", "shock"], "caution": "A compact reference, not a substitute for the Yijing tradition."},
+        {"symbol_id": "xun", "label": "Xun — Wind", "glyph": "☴", "facets": ["penetration", "influence", "gentleness"], "caution": "A compact reference, not a substitute for the Yijing tradition."},
+        {"symbol_id": "kan", "label": "Kan — Water", "glyph": "☵", "facets": ["depth", "risk", "flow"], "caution": "A compact reference, not a substitute for the Yijing tradition."},
+        {"symbol_id": "gen", "label": "Gen — Mountain", "glyph": "☶", "facets": ["stillness", "limit", "rest"], "caution": "A compact reference, not a substitute for the Yijing tradition."},
+        {"symbol_id": "kun", "label": "Kun — Earth", "glyph": "☷", "facets": ["receptive", "support", "field"], "caution": "A compact reference, not a substitute for the Yijing tradition."}
+      ]
+    }
+  ]
+}

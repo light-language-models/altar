@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://altar.example/schema/draw-receipt-v1.json",
+  "title": "Altar Draw Receipt v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "selector_version", "at_utc", "unix_milliseconds",
+    "pack_id", "pack_sha256", "mode", "symbols", "selection_proof_sha256",
+    "selector_inputs"
+  ],
+  "properties": {
+    "schema_version": {"const": "altar-draw-receipt-v1"},
+    "selector_version": {"const": "altar-portable-v1"},
+    "at_utc": {"type": "string", "format": "date-time"},
+    "unix_milliseconds": {"type": "integer"},
+    "pack_id": {"type": "string"},
+    "pack_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "mode": {"enum": ["silence", "note", "chord", "field"]},
+    "symbols": {"type": "array", "items": {"type": "object"}},
+    "selection_proof_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "selector_inputs": {"type": "array", "items": {"type": "string"}}
+  }
+}

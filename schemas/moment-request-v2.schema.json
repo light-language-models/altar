@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://altar.example/schema/moment-request-v2.json",
+  "title": "Altar Moment Request v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["at_utc", "mode", "pack_id", "observer", "timezone_name"],
+  "properties": {
+    "at_utc": {"type": "string", "format": "date-time"},
+    "mode": {"enum": ["auto", "silence", "note", "chord", "field"]},
+    "pack_id": {"const": "whole-v3"},
+    "observer": {"type": "string", "minLength": 1, "maxLength": 80},
+    "event_id": {"type": ["string", "null"], "minLength": 1, "maxLength": 200},
+    "timezone_name": {"type": "string", "minLength": 1}
+  }
+}
